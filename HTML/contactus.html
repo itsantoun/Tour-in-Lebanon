@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <met charset="uft-8"></met>
+    <title>Tourist.lb</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<header class="body-style">
+    <div class="navbar" id="navbarid">
+        <a class="active" href="welcome.html">Home</a>
+        <a href="locateus.html" >Locate places</a>
+        <a href="contactus.html">Contact us</a>
+      
+    </div>
+</header>
+
+<body class="body-style">
+
+
+    <div class="contactus">
+      
+        <p class="name">Name <input type="text"  required></p>
+        <p class="name">Email &nbsp;<input type="email" required></p>
+        <textarea style="width: 300px; height: 200px;" class="name" placeholder="Share your thoughts" required></textarea>
+        
+        <button class="button1" onclick="sent()">Submit</button>
+    </div>
+    <script>
+        function sent() {
+          alert("Your Comment has been sucessfully submitted!!");
+        }
+        </script>
+</body>
+</html>
